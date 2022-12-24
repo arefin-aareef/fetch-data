@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'; // importing hooks
 import Form from './Form';
-import Button from './Button';
 
 function App() {
   const API_URL = 'https://jsonplaceholder.typicode.com/';

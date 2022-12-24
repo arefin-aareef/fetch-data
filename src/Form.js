@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button';
 
 const Form = ({ reqType, setReqType }) => { // form is receiving properties --destructuring
   return (
