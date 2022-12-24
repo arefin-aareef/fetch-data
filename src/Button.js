@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({ buttonText, reqType, setReqType }) => { // destructuring properties
   return (
     <div>
         
