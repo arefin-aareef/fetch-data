@@ -23,6 +23,10 @@ function App() {
 
   return (
     <div className="App">
+      <Form // creating component
+        reqType={reqType} // passing value to form
+        setReqType={setReqType}
+      />
       
     </div>
   );
