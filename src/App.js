@@ -29,7 +29,8 @@ function App() {
         reqType={reqType} // passing value to form
         setReqType={setReqType}
       />
-      <List items={items} />
+      {/* <List items={items} />   */}
+      <Table items={items} />
       
     </div>
   );
