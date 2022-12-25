@@ -5,7 +5,9 @@ const Table = () => {
     <div className='table-container'>
         <table>
             <tbody>
-                
+                {items.map(item => (
+                    <Row key={item.id} item={item} />
+                ))}
             </tbody>
         </table>
         
