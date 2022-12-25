@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Table = () => {
+const Table = ({ items }) => { // destructuring item
   return (
     <div className='table-container'>
         <table>
